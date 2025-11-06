@@ -55,6 +55,7 @@
     <DataSource Include="DataSource1.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="Check Sheet By Order ID.rdl" />
     <Report Include="Check Sheets.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
